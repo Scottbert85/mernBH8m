@@ -10,10 +10,10 @@ const profileSchema = new Schema(
     },
     fName: String,
     lName: String,
-    Name: String,
-    City: String,
-    State: String,
-    Avatar: String, //I assume this is a URL to the avatar and not image data
+    name: String,
+    city: String,
+    state: String,
+    avatar: String,
     githubUrl: String,
     twitterUrl: String,
     bio: String

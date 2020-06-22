@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>BrainHive</title>
+  </head>
+  <body>
+    <nav>
+        <div class="nav-wrapper blue-grey darken-2">
+          <a href="#" class="brand-logo">BrainHive</a>
+        </div>
+      </nav>
+      <section id="home">
+      <div class="container">
+          <h4>What would you like to do?</h4 >
+            </section>
+            <section id="profile">
+                <div class="container">
+                <ul class="collection">
+                <li class="collection-item">Add profile &nbsp; &nbsp; &nbsp; &nbsp;
+                    <form onsubmit="addProfile(event)">
+                    <input type="text" placeholder="User ID" id="userid">
+                    <input type="text" placeholder="First Name" id="fname">
+                    <input type="text" placeholder="Last Name" id="lname">
+                    <input type="text" placeholder="City" id="city">
+                    <input type="text" placeholder="State" id="state">
+                    <input type="text" placeholder="Avatar URL" id="avatar">
+                    <input type="text" placeholder="Github URL" id="githuburl">
+                    <input type="text" placeholder="Twitter URL" id="twitterurl">
+                    <input type="text" placeholder="bio" id="bio">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Add Profile</button>
+                    </form>
+            </ul>
+        </div>
+        </section>
+        <script src="script.js"></script>
+  </body>
+</html>
